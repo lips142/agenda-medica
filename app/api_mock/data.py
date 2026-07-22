@@ -1,0 +1,32 @@
+AGENDAMENTOS = [
+    {
+        "paciente": "Maria Souza",
+        "cpf": "111.222.333-44",
+        "medico": "Dr. João Lima",
+        "especialidade": "Cardiologia",
+        "data": "2026-07-22",
+        "horario": "09:00",
+        "convenio": "Unimed",
+        "status": "Confirmado",
+    },
+    {
+        "paciente": "Carlos Pereira",
+        "cpf": "222.333.444-55",
+        "medico": "Dra. Ana Costa",
+        "especialidade": "Dermatologia",
+        "data": "2026-07-22",
+        "horario": "10:30",
+        "convenio": "Particular",
+        "status": "Pendente",
+    },
+    {
+        "paciente": "Fernanda Alves",
+        "cpf": "333.444.555-66",
+        "medico": "Dr. João Lima",
+        "especialidade": "Cardiologia",
+        "data": "2026-07-23",
+        "horario": "14:00",
+        "convenio": "Bradesco Saúde",
+        "status": "Cancelado",
+    },
+]

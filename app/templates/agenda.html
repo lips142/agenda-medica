@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Agenda Medica{% endblock %}
+
+{% block content %}
+<link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+
+<div class="agenda-container">
+    <div class="busca-container">
+        <label for="busca">Buscar por paciente, CPF ou medico</label>
+        <input type="text" id="busca" placeholder="Digite para buscar...">
+    </div>
+
+    <div id="mensagem-vazia" class="mensagem-vazia" style="display: none;">
+        Nenhum agendamento encontrado.
+    </div>
+
+    <div id="mensagem-erro" class="mensagem-erro" style="display: none;"></div>
+
+    <div id="agenda-table"></div>
+</div>
+
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
+<script src="{{ url_for('static', filename='js/agenda.js') }}"></script>
+{% endblock %}
