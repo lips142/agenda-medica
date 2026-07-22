@@ -14,24 +14,24 @@ Aplicação web simples para login de usuário e consulta de agendamentos médic
 - **Pytest** — testes automatizados
 
 ## Estrutura do projeto
-agenda-medica/
-├── app/
-│ ├── init.py # application factory
-│ ├── config.py # configurações via variáveis de ambiente
-│ ├── extensions.py # instância do SQLAlchemy
-│ ├── models.py # modelo User
-│ ├── auth/ # login/logout
-│ ├── agenda/ # tela principal + lógica de busca/tratamento de falhas
-│ ├── api_mock/ # API simulada de agendamentos
-│ ├── templates/
-│ └── static/
-├── tests/ # testes automatizados
-├── seed.py # cria o banco e o usuário de teste
-├── run.py # entrypoint da aplicação
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── .env.example
+agenda-medica/ 
+├── app/ \n
+│ ├── init.py # application factory \n
+│ ├── config.py # configurações via variáveis de ambiente \n
+│ ├── extensions.py # instância do SQLAlchemy \n
+│ ├── models.py # modelo User \n 
+│ ├── auth/ # login/logout \n
+│ ├── agenda/ # tela principal + lógica de busca/tratamento de falhas \n
+│ ├── api_mock/ # API simulada de agendamentos \n
+│ ├── templates/ \n
+│ └── static/ \n
+├── tests/ # testes automatizados \n
+├── seed.py # cria o banco e o usuário de teste \n
+├── run.py # entrypoint da aplicação \n 
+├── requirements.txt \n
+├── Dockerfile \n
+├── docker-compose.yml \n
+└── .env.example \n
 
 ## Como executar com Docker
 
